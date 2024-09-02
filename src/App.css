@@ -1,0 +1,26 @@
+/* Container for the top section */
+.contenerdorTop {
+  background-color: #f8f9fa; 
+  padding: 10px; 
+  border-bottom: 2px solid #ccc; 
+}
+
+.Contenerdor {
+  display: flex; 
+  justify-content: space-around; 
+  align-items: center; 
+}
+
+.Contenerdor p {
+  margin: 0;
+  padding: 0 15px; 
+  font-family: Arial, sans-serif; 
+  font-size: 16px; 
+  color: #333;
+  cursor: pointer; 
+  transition: color 0.3s ease; 
+}
+
+.Contenerdor p:hover {
+  color: #007bff; 
+}
